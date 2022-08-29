@@ -13,6 +13,8 @@ namespace HelloWorldDemo195Batch
             Console.WriteLine("Welcome to Fellowship");
             //maruti object
             Car maruti = new Car();
+            Car.name = "Suzuki";
+            Console.WriteLine("static variable:"+ Car.name);
             maruti.color = "red";
             maruti.price = 87732;
             maruti.model = "marutii";
@@ -23,6 +25,7 @@ namespace HelloWorldDemo195Batch
             bmw.price = 877328;
             bmw.model = "bmz";
             bmw.Display();
+            Console.WriteLine("static variable:" + Car.name);
 
             Console.WriteLine("\nDog implementation");
             //Syntax for object creation of any class

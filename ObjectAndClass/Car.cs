@@ -8,18 +8,23 @@ namespace HelloWorldDemo195Batch
 {
     public class Car
     {
-        //variables  or attributes
+        //instance variables  or attributes
         //modelNumber,color,price
         public string color;
         public double price;
         public string model;
-                
+
+        //static variable
+        public static string name;
+
         //methods
         //drive,start,stop
         public void Display()
         {
+            //local varible
+            string location = "bnglr";
             Console.WriteLine(color+" "+price+" "+model);
-        }
-        
+            Console.WriteLine("location:"+location);
+        }      
     }
 }
