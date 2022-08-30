@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloWorldDemo195Batch.CSharpBasicPrgms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,6 +46,11 @@ namespace HelloWorldDemo195Batch
             Console.WriteLine("Making changes in remote master branch");
             Console.WriteLine("Creating conflict atlocal");
             Console.WriteLine("Trying to create conflict in remote");
+
+            Console.WriteLine("\nFibonoccie series");
+            Console.WriteLine("Please enter numb to generate n series");
+            int n=Convert.ToInt32(Console.ReadLine());
+            FibonocciSeries.FindSeries(n);
             Console.ReadLine();
         }
     }
