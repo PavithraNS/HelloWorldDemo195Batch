@@ -43,6 +43,7 @@ namespace HelloWorldDemo195Batch
             dog2.DogDetails();
             //Dog dog3 = new Dog();
             Console.WriteLine("Making changes in remote master branch");
+            Console.WriteLine("Creating conflict atlocal");
             Console.ReadLine();
         }
     }
