@@ -22,7 +22,9 @@ namespace HelloWorldDemo195Batch
         public void Display()
         {
             //local varible
-            string location = "Delhi";
+            string location = "Mumbai";
+            string location1 = "Delhi";
+
             Console.WriteLine(color+" "+price+" "+model);
             Console.WriteLine("location:"+location);
         }      
