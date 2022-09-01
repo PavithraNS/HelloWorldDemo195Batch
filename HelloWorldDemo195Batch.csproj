@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSharpBasicPrgms\FibonocciSeries.cs" />
+    <Compile Include="CSharpBasicPrgms\ReverseNumber.cs" />
     <Compile Include="ObjectAndClass\Car.cs" />
     <Compile Include="ObjectAndClass\Dog.cs" />
     <Compile Include="Program.cs" />

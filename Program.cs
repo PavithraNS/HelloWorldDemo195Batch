@@ -48,9 +48,13 @@ namespace HelloWorldDemo195Batch
             Console.WriteLine("Trying to create conflict in remote");
 
             Console.WriteLine("\nFibonoccie series");
-            Console.WriteLine("Please enter numb to generate n series");
-            int n=Convert.ToInt32(Console.ReadLine());
-            FibonocciSeries.FindSeries(n);
+            //Console.WriteLine("Please enter numb to generate n series");
+            //int n=Convert.ToInt32(Console.ReadLine());
+            //FibonocciSeries.FindSeries(n);
+
+            Console.WriteLine("Enter any number to find reverse");
+            int number=Convert.ToInt32(Console.ReadLine());
+            ReverseNumber.Reverse(number);
             Console.ReadLine();
         }
     }
