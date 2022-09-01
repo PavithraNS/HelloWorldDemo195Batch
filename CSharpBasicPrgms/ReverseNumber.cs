@@ -11,7 +11,6 @@ namespace HelloWorldDemo195Batch.CSharpBasicPrgms
         public static int Reverse(int number)
         {
             int remainder = 0,reverse=0;
-            Console.WriteLine(number); //1234
             while (number != 0)
             {
                 remainder = number % 10; //4 3 2 1
