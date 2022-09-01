@@ -52,9 +52,11 @@ namespace HelloWorldDemo195Batch
             //int n=Convert.ToInt32(Console.ReadLine());
             //FibonocciSeries.FindSeries(n);
 
-            Console.WriteLine("Enter any number to find reverse");
-            int number=Convert.ToInt32(Console.ReadLine());
-            ReverseNumber.Reverse(number);
+            //Console.WriteLine("Enter any number to find reverse");
+            //int number=Convert.ToInt32(Console.ReadLine());
+            //ReverseNumber.Reverse(number);
+
+            PalindromeNumber.FindPolyndrome();
             Console.ReadLine();
         }
     }

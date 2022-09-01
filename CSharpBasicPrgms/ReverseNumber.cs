@@ -8,7 +8,7 @@ namespace HelloWorldDemo195Batch.CSharpBasicPrgms
 {
     class ReverseNumber
     {
-        public static void Reverse(int number)
+        public static int Reverse(int number)
         {
             int remainder = 0,reverse=0;
             Console.WriteLine(number); //1234
@@ -19,6 +19,7 @@ namespace HelloWorldDemo195Batch.CSharpBasicPrgms
                 number = number / 10; //123 12 1 0
             }
             Console.WriteLine("After reverse:{0}",reverse);
+            return reverse;
         }
     }
 }
