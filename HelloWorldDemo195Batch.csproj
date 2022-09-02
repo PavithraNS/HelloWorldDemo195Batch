@@ -46,6 +46,7 @@
     <Compile Include="CSharpBasicPrgms\FibonocciSeries.cs" />
     <Compile Include="CSharpBasicPrgms\PalindromeNumber.cs" />
     <Compile Include="CSharpBasicPrgms\ReverseNumber.cs" />
+    <Compile Include="CSharpBasicPrgms\ReverseWord.cs" />
     <Compile Include="CSharpBasicPrgms\SumOfDigits.cs" />
     <Compile Include="ObjectAndClass\Car.cs" />
     <Compile Include="ObjectAndClass\Dog.cs" />
