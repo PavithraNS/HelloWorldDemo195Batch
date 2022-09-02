@@ -12,7 +12,7 @@ namespace HelloWorldDemo195Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1:ObjectAndClass concept\n2:Fibonoccie Series\n3.Reverse Number\n4.Palindrome\n");
+            Console.WriteLine("1:ObjectAndClass concept\n2:Fibonoccie Series\n3.Reverse Number\n4.Palindrome\n5.SumOfDigits\n");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -49,6 +49,11 @@ namespace HelloWorldDemo195Batch
                     break;
                 case 4:
                     PalindromeNumber.FindPolyndrome();
+                    break;
+                case 5:
+                    Console.WriteLine("Enter any number to find sum of its digits");
+                    int numb = Convert.ToInt32(Console.ReadLine());
+                    SumOfDigits.FindSumOfDigits(numb);
                     break;
                 default:
                     Console.WriteLine("Please enter number within range");
